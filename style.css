@@ -6,7 +6,18 @@ body
     margin-right: 6%;
 }
 
-h1
+p
+{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5
+{
+    font-style: oblique;
+}
+
+.title
 {
     display: flex;
     justify-content: center;
@@ -18,8 +29,8 @@ hr
     background-color: #000000;
     border: none;
     width: auto;
-    margin-left: -92px;
-    margin-right: -92px;
+    margin-left: -114px;
+    margin-right: -114px;
 }
 
 .box
@@ -27,6 +38,10 @@ hr
     height: 80px;
     width: 150px;
 }
+
+/************************/
+/*      Color          */
+/************************/
 
 #color_square_1
 {
@@ -140,12 +155,6 @@ hr
     border-bottom-left-radius: 6px 6px;
 }
 
-p
-{
-    margin: 0;
-    padding: 0;
-}
-
 #text_color
 {
     text-align: center;
@@ -169,28 +178,173 @@ p
     justify-content: center;
 }
 
+/************************/
+/*      Button          */
+/************************/
 
-.button {
-    background-color: #4CAF50; /* Green */
-    border: none;
-    color: white;
-    padding: 16px 32px;
+.button 
+{
+    padding: 13px 22px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 14px;
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-  }
+}
   
-  .button1 {
+.button1 
+{
     background-color: white; 
     color: black; 
-    border: 2px solid #4CAF50;
-  }
+    border: 3px solid #585da9;
+}
   
-  .button1:hover {
-    background-color: #4CAF50;
+.button1:hover 
+{
+    background-color: #a19afb;
     color: white;
-  }
+}
+
+.button1-2
+{
+    background-color: white; 
+    color: black; 
+    border: 3px solid #a19afb;
+}
+  
+.button1-2:hover 
+{
+    background-color: #585da9;
+    color: white;
+}
+
+.button2 
+{
+    background-color: white; 
+    color: black; 
+    border: 3px solid #D770AD;
+}
+  
+.button2:hover 
+{
+    background-color: #EC87C0;
+    color: white;
+}
+
+.button2-2 
+{
+    background-color: white; 
+    color: black; 
+    border: 3px solid #EC87C0;
+}
+  
+.button2-2:hover 
+{
+    background-color: #D770AD;
+    color: white;
+}
+
+.button3 
+{
+    background-color: white; 
+    color: black; 
+    border: 3px solid #AAB2BD;
+}
+  
+.button3:hover 
+{
+    background-color: #CCD1D9;
+    color: rgb(255, 255, 255);
+}
+
+.button3-2 
+{
+    background-color: white; 
+    color: black; 
+    border: 3px solid #CCD1D9;
+}
+  
+.button3-2:hover 
+{
+    background-color: #AAB2BD;
+    color: rgb(255, 255, 255);
+}
+
+.button4 
+{
+    background-color: white; 
+    color: black; 
+    border: 3px solid #434A54;
+}
+  
+.button4:hover 
+{
+    background-color: #656D78;
+    color: rgb(255, 255, 255);
+}
+
+.button4-2 
+{
+    background-color: white; 
+    color: black; 
+    border: 3px solid #656D78;
+}
+  
+.button4-2:hover 
+{
+    background-color: #434A54;
+    color: rgb(255, 255, 255);
+}
+
+.box_button
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin: 30px;
+}
+
+/************************/
+/*      Typographie     */
+/************************/
+
+.container_typo
+{
+    display: flex;
+    justify-content: center;
+}
+
+.box_typo
+{
+    display: block;
+}
+
+/************************/
+/*      Icon            */
+/************************/
+
+.box_icons
+{
+    display: flex;
+    justify-content: center;
+}
+.h1_demo
+{
+    display: block;
+    justify-content: flex-start;
+}
+
+.icon
+{
+    margin-right: 15px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+/************************/
+/*      Input           */
+/************************/
+
